@@ -605,24 +605,24 @@
       "Root"
     ],
     [
-      "a4b26d4c-a648-4a1c-b008-d85c88bc1a9d",
-      "Driver"
+      "79279b58-6f84-47a5-8a20-31a3cd7584cf",
+      "1.Power"
     ],
     [
       "91ecfca5-1fde-4bfb-b396-1bb710e5b1bd",
-      "Mcu"
+      "2.Mcu"
+    ],
+    [
+      "a4b26d4c-a648-4a1c-b008-d85c88bc1a9d",
+      "3.Drive"
     ],
     [
       "a6d4f9ac-ce94-4e25-ac55-8dc736c58565",
-      "Port"
-    ],
-    [
-      "79279b58-6f84-47a5-8a20-31a3cd7584cf",
-      "Power"
+      "4.Port"
     ],
     [
       "9b49f0d1-725c-46a9-83d3-f1e791b8bf0d",
-      "Interface"
+      "5.Interface"
     ]
   ],
   "text_variables": {}
