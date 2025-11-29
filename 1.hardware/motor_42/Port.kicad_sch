@@ -5008,7 +5008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
 			(at 72.39 50.8 0)
 			(effects
 				(font
@@ -5080,7 +5080,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "MT6816_CONN"
 			(at 33.02 69.85 0)
 			(effects
 				(font
@@ -5088,7 +5088,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
 			(at 33.02 58.42 0)
 			(effects
 				(font
@@ -5339,7 +5339,7 @@
 				)
 			)
 		)
-		(property "Value" "DEBUG"
+		(property "Value" "WS2812_OUT"
 			(at 105.41 35.56 0)
 			(effects
 				(font
@@ -5347,7 +5347,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 105.41 29.21 0)
 			(effects
 				(font
@@ -5473,24 +5473,22 @@
 		(fields_autoplaced yes)
 		(uuid "457d60e9-b8f6-4682-83be-114268cedb88")
 		(property "Reference" "J7"
-			(at 137.16 49.5299 0)
+			(at 139.7 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
-			(at 137.16 52.0699 0)
+		(property "Value" "ESP_DOWNLOAD"
+			(at 139.7 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 139.7 50.8 0)
 			(effects
 				(font
@@ -5685,7 +5683,7 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_3_Bridged123"
+		(property "Value" "PAD_OUTA_P"
 			(at 175.26 63.5 0)
 			(effects
 				(font
@@ -5756,7 +5754,7 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_2_Open"
+		(property "Value" "CAN_END_PAD"
 			(at 100.33 76.2 0)
 			(effects
 				(font
@@ -6096,7 +6094,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "WAGO_2060"
 			(at 139.7 95.25 0)
 			(effects
 				(font
@@ -6295,7 +6293,7 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_3_Bridged123"
+		(property "Value" "PAD_OUTB_P"
 			(at 175.26 87.63 0)
 			(effects
 				(font
@@ -6366,7 +6364,7 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_3_Bridged123"
+		(property "Value" "PAD_OUTB_M"
 			(at 175.26 99.06 0)
 			(effects
 				(font
@@ -6510,7 +6508,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 91.44 80.01 0)
 			(effects
 				(font
@@ -6570,7 +6568,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "WAGO_2060"
 			(at 139.7 77.47 0)
 			(effects
 				(font
@@ -6638,7 +6636,7 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_3_Bridged123"
+		(property "Value" "PAD_OUTA_M"
 			(at 175.26 76.2 0)
 			(effects
 				(font
@@ -6797,7 +6795,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x05"
+		(property "Value" "PC_CONN"
 			(at 33.02 36.83 0)
 			(effects
 				(font
@@ -6805,7 +6803,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
 			(at 33.02 27.94 0)
 			(effects
 				(font
@@ -7016,7 +7014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
 			(at 105.41 50.8 0)
 			(effects
 				(font
@@ -7229,7 +7227,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 72.39 29.21 0)
 			(effects
 				(font
