@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "3c5de6a8-6840-43a5-a2fb-24dbb7f0450d")
-	(paper "A4")
+	(paper "A")
 	(lib_symbols)
 	(sheet
 		(at 34.29 24.13)

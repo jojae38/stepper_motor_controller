@@ -50,14 +50,27 @@ void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, ADC_ENC_Pin|LED1_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pin : PA4 */
-  GPIO_InitStruct.Pin = GPIO_PIN_4;
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOB, MT6816_CSN_Pin|IN_B_M_Pin|IN_B_P_Pin|IN_A_M_Pin
+                          |IN_A_P_Pin|LED2_Pin|BTN1_Pin|BTN2_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pins : ADC_ENC_Pin LED1_Pin */
+  GPIO_InitStruct.Pin = ADC_ENC_Pin|LED1_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : MT6816_CSN_Pin IN_B_M_Pin IN_B_P_Pin IN_A_M_Pin
+                           IN_A_P_Pin LED2_Pin BTN1_Pin BTN2_Pin */
+  GPIO_InitStruct.Pin = MT6816_CSN_Pin|IN_B_M_Pin|IN_B_P_Pin|IN_A_M_Pin
+                          |IN_A_P_Pin|LED2_Pin|BTN1_Pin|BTN2_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
 }
 
