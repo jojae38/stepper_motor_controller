@@ -2893,6 +2893,14 @@
 		(at 137.16 81.28)
 		(uuid "badfe102-501f-4349-b3db-511b8ae6b939")
 	)
+	(no_connect
+		(at 172.72 93.98)
+		(uuid "ce72111a-8873-403c-96ea-a965990dd08f")
+	)
+	(no_connect
+		(at 172.72 91.44)
+		(uuid "f8800589-f5f4-417c-9eaa-8faff2ee7aa9")
+	)
 	(wire
 		(pts
 			(xy 157.48 139.7) (xy 154.94 139.7)
@@ -2942,16 +2950,6 @@
 			(type default)
 		)
 		(uuid "096be2c5-6dcc-48f5-9702-db57b0ecd301")
-	)
-	(wire
-		(pts
-			(xy 172.72 93.98) (xy 176.53 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a8fe2ed-aa37-452a-ae61-8e1f47dd9a0f")
 	)
 	(wire
 		(pts
@@ -3045,16 +3043,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 93.98) (xy 191.77 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "186992b7-04ec-4440-b16e-5b7a47403b23")
-	)
-	(wire
-		(pts
 			(xy 133.35 127) (xy 137.16 127)
 		)
 		(stroke
@@ -3145,16 +3133,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 91.44) (xy 191.77 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a52c58b-53a5-4707-ab83-49a0241e7895")
-	)
-	(wire
-		(pts
 			(xy 35.56 134.62) (xy 41.91 134.62)
 		)
 		(stroke
@@ -3222,16 +3200,6 @@
 			(type default)
 		)
 		(uuid "39ce4506-5c07-4b82-b18b-25ae69dd4317")
-	)
-	(wire
-		(pts
-			(xy 172.72 91.44) (xy 176.53 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a476a09-4b70-4bf6-b269-2f17174c188a")
 	)
 	(wire
 		(pts
@@ -4321,28 +4289,6 @@
 			)
 		)
 	)
-	(global_label "USB_DM"
-		(shape passive)
-		(at 191.77 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2c26ee3c-4143-4aca-bc2c-2bb6b1c802e4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.1429 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IN_B-"
 		(shape passive)
 		(at 133.35 121.92 180)
@@ -5216,28 +5162,6 @@
 		(uuid "e3a99418-7cf7-4c1e-921a-5aab853e1d97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 156.0276 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_DP"
-		(shape passive)
-		(at 191.77 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e5c2fa50-c16b-417c-90ad-112fc5d392f7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.9615 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7029,73 +6953,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 179.07 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9c86be06-3808-4535-b39c-387395a7b7ea")
-		(property "Reference" "R17"
-			(at 175.514 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R/0.063w"
-			(at 185.674 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 179.07 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 179.07 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f4994a29-dbe1-4273-b44a-100f0f4876ae")
-		)
-		(pin "1"
-			(uuid "c22ae243-1baf-4496-b569-d12db05e2529")
-		)
-		(instances
-			(project "motor_42"
-				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/91ecfca5-1fde-4bfb-b396-1bb710e5b1bd"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
 		(at 95.25 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7613,7 +7470,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 132.08 29.21 0)
 			(effects
 				(font
@@ -8267,73 +8124,6 @@
 			(project "motor_42"
 				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/91ecfca5-1fde-4bfb-b396-1bb710e5b1bd"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 179.07 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f13b5a2e-94eb-4ad8-9741-ef8b2aeaecf9")
-		(property "Reference" "R16"
-			(at 175.514 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R/0.063w"
-			(at 185.674 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 179.07 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 179.07 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "47bd2500-86c6-41a9-b620-7a4f8cb9422f")
-		)
-		(pin "1"
-			(uuid "ceba8739-5dc8-4688-b0d2-c1a1d7706169")
-		)
-		(instances
-			(project "motor_42"
-				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/91ecfca5-1fde-4bfb-b396-1bb710e5b1bd"
-					(reference "R16")
 					(unit 1)
 				)
 			)
