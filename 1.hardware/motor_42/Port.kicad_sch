@@ -1590,12 +1590,6 @@
 		(uuid "132b1a4f-cb38-4643-99fe-c0ab5276f9a2")
 	)
 	(junction
-		(at 116.84 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23f0fcd1-9ac6-4821-9e6e-d8212bac3609")
-	)
-	(junction
 		(at 80.01 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1637,12 +1631,6 @@
 		(color 0 0 0 0)
 		(uuid "f76517b6-9f95-4135-970c-9fe064ab2a1f")
 	)
-	(junction
-		(at 116.84 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fcfe8296-e043-44d1-b942-9e7e45015495")
-	)
 	(wire
 		(pts
 			(xy 149.86 53.34) (xy 144.78 53.34)
@@ -1652,26 +1640,6 @@
 			(type default)
 		)
 		(uuid "0131fee4-2730-40db-9097-ab72946bec25")
-	)
-	(wire
-		(pts
-			(xy 116.84 29.21) (xy 123.19 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01cb1642-99a0-41c1-8661-cf59f89bf14b")
-	)
-	(wire
-		(pts
-			(xy 116.84 21.59) (xy 119.38 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "033f9aef-5614-45e9-a543-83e91d298c9d")
 	)
 	(wire
 		(pts
@@ -1702,16 +1670,6 @@
 			(type default)
 		)
 		(uuid "09a7999d-285e-495b-9526-c58bf7b5272e")
-	)
-	(wire
-		(pts
-			(xy 113.03 31.75) (xy 110.49 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ab8924d-0bda-45b3-8fb5-053a9a81058e")
 	)
 	(wire
 		(pts
@@ -1865,16 +1823,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 21.59) (xy 116.84 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4afed341-acc7-4a53-bb79-6d964ea6747b")
-	)
-	(wire
-		(pts
 			(xy 38.1 33.02) (xy 44.45 33.02)
 		)
 		(stroke
@@ -1902,26 +1850,6 @@
 			(type default)
 		)
 		(uuid "65279fca-e230-4375-9868-2dc7747ef9ea")
-	)
-	(wire
-		(pts
-			(xy 114.3 21.59) (xy 114.3 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69d51341-63e0-4c5d-afe0-442651cb8d61")
-	)
-	(wire
-		(pts
-			(xy 116.84 27.94) (xy 116.84 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b00ae29-b0e6-4a09-881e-6ac7db765f52")
 	)
 	(wire
 		(pts
@@ -1982,16 +1910,6 @@
 			(type default)
 		)
 		(uuid "779aa3b7-5637-460e-942e-2e9120d9d29f")
-	)
-	(wire
-		(pts
-			(xy 113.03 34.29) (xy 113.03 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "779c1448-eb12-4616-89aa-0f246f528542")
 	)
 	(wire
 		(pts
@@ -2085,16 +2003,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 26.67) (xy 110.49 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91d18ca0-7c0a-4b1e-a6db-e30119f56950")
-	)
-	(wire
-		(pts
 			(xy 149.86 71.12) (xy 149.86 74.93)
 		)
 		(stroke
@@ -2172,16 +2080,6 @@
 			(type default)
 		)
 		(uuid "ada2b115-ac82-4eb0-bf8a-ca7db9746ad1")
-	)
-	(wire
-		(pts
-			(xy 110.49 29.21) (xy 116.84 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aedebd1d-aff1-4d0d-a0d1-1dc4bb577316")
 	)
 	(wire
 		(pts
@@ -2272,16 +2170,6 @@
 			(type default)
 		)
 		(uuid "caccdfe0-2238-4e62-89ee-67d5c1c3cd6b")
-	)
-	(wire
-		(pts
-			(xy 116.84 21.59) (xy 116.84 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2c52a3b-d789-4a48-8bfa-6f2985eab601")
 	)
 	(wire
 		(pts
@@ -2594,28 +2482,6 @@
 			)
 		)
 	)
-	(global_label "WS2812_SIGNAL"
-		(shape passive)
-		(at 123.19 29.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "847bcd9b-e353-4513-9507-39b60d0e761c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.0619 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAN_H"
 		(shape passive)
 		(at 114.3 50.8 0)
@@ -2717,28 +2583,6 @@
 		(uuid "a23d8e3f-73b4-40b4-bb8b-1f0dc2f12a73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 59.9915 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape passive)
-		(at 119.38 21.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a455f66b-910b-4281-9242-6942c5bb5a61")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.552 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3378,77 +3222,6 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 105.41 29.21 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f850258-f471-4c68-8d4f-1c94916139a4")
-		(property "Reference" "J9"
-			(at 105.41 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812_OUT"
-			(at 105.41 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
-			(at 105.41 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 105.41 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c97e3191-f7c7-4f62-9762-7ff4a71015bd")
-		)
-		(pin "1"
-			(uuid "116581f6-9111-4b2d-851a-494a4237ea52")
-		)
-		(pin "2"
-			(uuid "f4faffe9-3344-44b7-ab05-084ad5dca1e1")
-		)
-		(instances
-			(project "motor_42"
-				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/a6d4f9ac-ce94-4e25-ac55-8dc736c58565"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
 		(at 139.7 50.8 0)
 		(mirror y)
 		(unit 1)
@@ -3514,72 +3287,6 @@
 			(project "motor_42"
 				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/a6d4f9ac-ce94-4e25-ac55-8dc736c58565"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 113.03 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b1622cd-b1b3-464e-9a32-ba62f5f93dfa")
-		(property "Reference" "#PWR056"
-			(at 113.03 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "356f3905-4b5f-45e3-8370-61855b36c4eb")
-		)
-		(instances
-			(project "motor_42"
-				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/a6d4f9ac-ce94-4e25-ac55-8dc736c58565"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3781,73 +3488,6 @@
 			(project "motor_42"
 				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/a6d4f9ac-ce94-4e25-ac55-8dc736c58565"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 116.84 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a88f5df-ea70-4b86-a77b-015641cddfee")
-		(property "Reference" "R39"
-			(at 114.808 28.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k/0.063w"
-			(at 123.952 23.876 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 116.84 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 116.84 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "08d45e01-defc-498a-aa8f-9e211b333c94")
-		)
-		(pin "1"
-			(uuid "b7458176-bb76-4a98-a763-1ebd5f1326e7")
-		)
-		(instances
-			(project "motor_42"
-				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/a6d4f9ac-ce94-4e25-ac55-8dc736c58565"
-					(reference "R39")
 					(unit 1)
 				)
 			)

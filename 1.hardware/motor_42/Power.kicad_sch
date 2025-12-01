@@ -1521,248 +1521,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:TLV74033PDBVR"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 21.59 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TLV74033PDBVR"
-				(at 21.59 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "SOT95P280X145-5N"
-				(at 21.59 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv740p.pdf?ts=1599647884466&ref_url=https%253A%252F%252Fwww.ti.com%252Fpower-management%252Flinear-regulators-ldo%252Fproducts.html"
-				(at 21.59 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "LDO Voltage Regulators"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "LDO Voltage Regulators"
-				(at 21.59 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.45"
-				(at 21.59 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 21.59 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TLV74033PDBVR"
-				(at 21.59 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-TLV74033PDBVR"
-				(at 21.59 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV74033PDBVR?qs=sPbYRqrBIVkaG2WMvPh1eg%3D%3D"
-				(at 21.59 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "TLV74033PDBVR"
-				(at 21.59 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tlv74033pdbvr/texas-instruments?utm_currency=USD&region=europe"
-				(at 21.59 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "TLV74033PDBVR_0_0"
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TLV74033PDBVR_0_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 20.32 2.54) (xy 20.32 -7.62) (xy 5.08 -7.62) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1908,28 +1666,10 @@
 		(uuid "32dac939-99fe-4da7-96a0-227a2fbeb509")
 	)
 	(junction
-		(at 105.41 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c3b0a34-d1c6-4ce5-afaf-8a91a36066d4")
-	)
-	(junction
 		(at 116.84 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4660cf5e-a7b2-471c-971a-e5a76dd40603")
-	)
-	(junction
-		(at 62.23 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "641b1a5d-7a44-4211-818b-a61a00699068")
-	)
-	(junction
-		(at 116.84 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7922d302-bfc0-4486-be4e-f2c36a75eb71")
 	)
 	(junction
 		(at 54.61 88.9)
@@ -1962,22 +1702,10 @@
 		(uuid "b4b5f43a-c5fe-46a8-88ba-ddb3122e422a")
 	)
 	(junction
-		(at 127 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6616b51-2f4a-4482-85de-61422be11fb7")
-	)
-	(junction
 		(at 128.27 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c66100dc-c165-41af-b005-80f41fd910cc")
-	)
-	(junction
-		(at 72.39 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8326181-6ac2-4e96-8be9-1cde6df87ddc")
 	)
 	(junction
 		(at 81.28 88.9)
@@ -2085,16 +1813,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 152.4) (xy 116.84 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "285fc758-5ce5-419f-b5b3-1566ec10fc0f")
-	)
-	(wire
-		(pts
 			(xy 128.27 91.44) (xy 139.7 91.44)
 		)
 		(stroke
@@ -2112,16 +1830,6 @@
 			(type default)
 		)
 		(uuid "2c5cf2dd-2eec-44d6-84d5-19af1f53a1b6")
-	)
-	(wire
-		(pts
-			(xy 116.84 144.78) (xy 127 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e50c95e-8c81-4d55-8333-a2098dcd97be")
 	)
 	(wire
 		(pts
@@ -2165,16 +1873,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 144.78) (xy 69.85 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "400a4c9c-0930-4b20-b3e6-eaad03e71338")
-	)
-	(wire
-		(pts
 			(xy 38.1 45.72) (xy 43.18 45.72)
 		)
 		(stroke
@@ -2202,16 +1900,6 @@
 			(type default)
 		)
 		(uuid "433f477d-085a-46b8-9a8a-45c253c08187")
-	)
-	(wire
-		(pts
-			(xy 62.23 142.24) (xy 72.39 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "442253f9-ec9e-4a23-b8ae-203c3d4aa405")
 	)
 	(wire
 		(pts
@@ -2265,26 +1953,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 144.78) (xy 105.41 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eb3a65a-4d6f-4ea7-8d92-938072c2512b")
-	)
-	(wire
-		(pts
-			(xy 57.15 142.24) (xy 62.23 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f9361c5-31ac-4e6e-9e30-9647b514bada")
-	)
-	(wire
-		(pts
 			(xy 156.21 113.03) (xy 156.21 115.57)
 		)
 		(stroke
@@ -2292,16 +1960,6 @@
 			(type default)
 		)
 		(uuid "54347209-c62e-4eb9-8d55-4ca0ce0c5913")
-	)
-	(wire
-		(pts
-			(xy 127 144.78) (xy 127 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59de206d-6c69-4cb6-9da3-9e64185d2b90")
 	)
 	(wire
 		(pts
@@ -2315,16 +1973,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 144.78) (xy 105.41 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68366ccc-d601-4fe6-8d9b-50fc7007bc16")
-	)
-	(wire
-		(pts
 			(xy 182.88 49.53) (xy 179.07 49.53)
 		)
 		(stroke
@@ -2332,16 +1980,6 @@
 			(type default)
 		)
 		(uuid "6f4949dc-6c84-4cf6-9af2-b12737cf5c68")
-	)
-	(wire
-		(pts
-			(xy 72.39 147.32) (xy 72.39 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76baaed7-fa63-4e66-a3e6-853c3273288a")
 	)
 	(wire
 		(pts
@@ -2355,16 +1993,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 152.4) (xy 127 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77c3b58f-5db4-4d33-b77b-9ab373715c1c")
-	)
-	(wire
-		(pts
 			(xy 101.6 99.06) (xy 101.6 102.87)
 		)
 		(stroke
@@ -2372,16 +2000,6 @@
 			(type default)
 		)
 		(uuid "8373df58-4a8a-4977-942a-35dc104c5553")
-	)
-	(wire
-		(pts
-			(xy 62.23 142.24) (xy 62.23 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "842e4015-bbb0-4a7b-abf6-7a443d6214d4")
 	)
 	(wire
 		(pts
@@ -2435,16 +2053,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 147.32) (xy 72.39 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "954d6d43-1122-4cf8-bf1e-13e68878a7e3")
-	)
-	(wire
-		(pts
 			(xy 163.83 49.53) (xy 166.37 49.53)
 		)
 		(stroke
@@ -2452,16 +2060,6 @@
 			(type default)
 		)
 		(uuid "9629839d-f53d-4844-86f4-f35ed0880010")
-	)
-	(wire
-		(pts
-			(xy 105.41 144.78) (xy 116.84 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98c55d26-a2a0-4618-bcbd-68a2f7b7afb4")
 	)
 	(wire
 		(pts
@@ -2502,16 +2100,6 @@
 			(type default)
 		)
 		(uuid "a1e1cea3-b10a-4cd5-ab2e-c86a3da8e2e3")
-	)
-	(wire
-		(pts
-			(xy 62.23 149.86) (xy 62.23 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2122e84-b053-41bb-b9eb-42410a0591e7")
 	)
 	(wire
 		(pts
@@ -2595,16 +2183,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 152.4) (xy 105.41 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b70db4dd-8c54-42b3-b6d2-ea6ad917fa80")
-	)
-	(wire
-		(pts
 			(xy 199.39 49.53) (xy 195.58 49.53)
 		)
 		(stroke
@@ -2672,16 +2250,6 @@
 			(type default)
 		)
 		(uuid "c854495c-426b-4744-b92b-3302ff6a5ee9")
-	)
-	(wire
-		(pts
-			(xy 127 144.78) (xy 133.35 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c879c5ab-82f5-4243-b8eb-ba0511062744")
 	)
 	(wire
 		(pts
@@ -2805,16 +2373,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 144.78) (xy 69.85 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaafe8a2-a019-438d-9166-e43af8e43b73")
-	)
-	(wire
-		(pts
 			(xy 139.7 99.06) (xy 139.7 100.33)
 		)
 		(stroke
@@ -2835,26 +2393,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 142.24) (xy 74.93 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f71aaf27-5d52-49ae-be64-543a6fe6c720")
-	)
-	(wire
-		(pts
-			(xy 116.84 144.78) (xy 116.84 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f88445e3-575e-48f2-8bd4-4fbcf385f3f9")
-	)
-	(wire
-		(pts
 			(xy 68.58 88.9) (xy 81.28 88.9)
 		)
 		(stroke
@@ -2863,7 +2401,7 @@
 		)
 		(uuid "fd51b936-5a49-4013-9f07-d3b656e54957")
 	)
-	(global_label "5V"
+	(global_label "3V3"
 		(shape passive)
 		(at 163.83 91.44 0)
 		(fields_autoplaced yes)
@@ -2875,7 +2413,7 @@
 		)
 		(uuid "0b90f5de-bdcd-4245-a314-f1e10a786245")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.002 91.44 0)
+			(at 169.2115 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,50 +2524,6 @@
 		(uuid "d45b03e5-45bd-48af-88fc-d450508baf62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 131.2325 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape passive)
-		(at 57.15 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ddbb94d5-280e-4c7f-ac5e-65a2ccf22d2a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.978 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape passive)
-		(at 133.35 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e6368cf1-2cfe-4897-b17a-a49e87c27df4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.7315 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3544,165 +3038,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:TLV74033PDBVR")
-		(at 74.93 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23478427-65d7-4ed6-b61b-f700528ce12b")
-		(property "Reference" "IC3"
-			(at 87.63 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV74033PDBVR"
-			(at 87.63 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:SOT95P280X145-5N"
-			(at 96.52 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv740p.pdf?ts=1599647884466&ref_url=https%253A%252F%252Fwww.ti.com%252Fpower-management%252Flinear-regulators-ldo%252Fproducts.html"
-			(at 96.52 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "LDO Voltage Regulators"
-			(at 74.93 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "LDO Voltage Regulators"
-			(at 96.52 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 96.52 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 96.52 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TLV74033PDBVR"
-			(at 96.52 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TLV74033PDBVR"
-			(at 96.52 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV74033PDBVR?qs=sPbYRqrBIVkaG2WMvPh1eg%3D%3D"
-			(at 96.52 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TLV74033PDBVR"
-			(at 96.52 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tlv74033pdbvr/texas-instruments?utm_currency=USD&region=europe"
-			(at 96.52 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "2adda6be-73f5-4214-ac3b-fd95072a2900")
-		)
-		(pin "1"
-			(uuid "2cf13d09-db02-46ef-ac50-209fdca94d45")
-		)
-		(pin "2"
-			(uuid "bceffa70-3f82-4767-8d5b-530e69f97e62")
-		)
-		(pin "4"
-			(uuid "7e6cfd84-cb89-401f-b365-d716459fb4df")
-		)
-		(pin "3"
-			(uuid "ec46d509-a160-49b3-b273-7971e5912e3b")
-		)
-		(instances
-			(project ""
-				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/79279b58-6f84-47a5-8a20-31a3cd7584cf"
-					(reference "IC3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 121.92 91.44 90)
 		(unit 1)
@@ -3719,7 +3054,7 @@
 				)
 			)
 		)
-		(property "Value" "15uH"
+		(property "Value" "10uH"
 			(at 122.428 92.964 90)
 			(effects
 				(font
@@ -3764,72 +3099,6 @@
 			(project ""
 				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/79279b58-6f84-47a5-8a20-31a3cd7584cf"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 62.23 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ef63804-5698-4d54-86e2-59d0388d57bb")
-		(property "Reference" "#PWR06"
-			(at 62.23 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4fe23198-9d09-4170-ad59-1529e7ba5461")
-		)
-		(instances
-			(project "motor_42"
-				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/79279b58-6f84-47a5-8a20-31a3cd7584cf"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3896,75 +3165,6 @@
 			(project "motor_42"
 				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/79279b58-6f84-47a5-8a20-31a3cd7584cf"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small_US")
-		(at 116.84 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3555a9dd-2c6d-479d-86c7-a1ed724a2946")
-		(property "Reference" "C5"
-			(at 119.38 148.7169 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF/10V"
-			(at 117.094 152.146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 116.84 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "capacitor, small US symbol"
-			(at 116.84 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "22269d4f-58e5-473c-9855-a1bdb9000387")
-		)
-		(pin "1"
-			(uuid "13acad8a-6729-43fb-b73a-d33485f023f9")
-		)
-		(instances
-			(project "motor_42"
-				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/79279b58-6f84-47a5-8a20-31a3cd7584cf"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4095,72 +3295,6 @@
 			(project "motor_42"
 				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/79279b58-6f84-47a5-8a20-31a3cd7584cf"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 69.85 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e3212c1-bb00-4d1f-8a49-69e869093c76")
-		(property "Reference" "#PWR01"
-			(at 69.85 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 69.85 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee8f8ebc-4bf9-4222-ace3-ca61a88a0f5a")
-		)
-		(instances
-			(project "motor_42"
-				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/79279b58-6f84-47a5-8a20-31a3cd7584cf"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4646,72 +3780,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f88a990-3901-466a-925e-c22ef65a5d0b")
-		(property "Reference" "#PWR012"
-			(at 116.84 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f289133-b890-429f-accb-fdc502ce34d7")
-		)
-		(instances
-			(project "motor_42"
-				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/79279b58-6f84-47a5-8a20-31a3cd7584cf"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 119.38 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4973,75 +4041,6 @@
 			(project "motor_42"
 				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/79279b58-6f84-47a5-8a20-31a3cd7584cf"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small_US")
-		(at 105.41 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88562cb6-d0a1-4145-8d64-d73638518f1d")
-		(property "Reference" "C1"
-			(at 107.95 148.7169 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF/50V"
-			(at 105.664 152.146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 105.41 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "capacitor, small US symbol"
-			(at 105.41 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0eff41c3-9225-4b33-a77b-83bd410ee5b7")
-		)
-		(pin "1"
-			(uuid "47e6164a-366a-4c70-ae80-c14cbee6d9b5")
-		)
-		(instances
-			(project "motor_42"
-				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/79279b58-6f84-47a5-8a20-31a3cd7584cf"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5381,75 +4380,6 @@
 			(project ""
 				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/79279b58-6f84-47a5-8a20-31a3cd7584cf"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small_US")
-		(at 62.23 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab6c42d6-d1b9-4057-8618-26fe9f81adb5")
-		(property "Reference" "C3"
-			(at 64.77 146.1769 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF/10V"
-			(at 53.34 149.098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 62.23 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "capacitor, small US symbol"
-			(at 62.23 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d08f4b1d-e80b-4e09-a7eb-7d7f145f56ad")
-		)
-		(pin "1"
-			(uuid "7924732c-c028-4380-966a-91738d70dd2b")
-		)
-		(instances
-			(project "motor_42"
-				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/79279b58-6f84-47a5-8a20-31a3cd7584cf"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5802,72 +4732,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb80cc66-741a-4884-8234-3d950de50e05")
-		(property "Reference" "#PWR037"
-			(at 127 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb30d302-b5ec-42e2-a60f-a0a0369040ab")
-		)
-		(instances
-			(project "motor_42"
-				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/79279b58-6f84-47a5-8a20-31a3cd7584cf"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 81.28 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5993,72 +4857,6 @@
 			(project "motor_42"
 				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/79279b58-6f84-47a5-8a20-31a3cd7584cf"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 105.41 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c441815a-7534-464d-9c2f-a87d07847326")
-		(property "Reference" "#PWR03"
-			(at 105.41 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3dfbe24-a0da-4d4e-a726-90ae7dc66e8f")
-		)
-		(instances
-			(project "motor_42"
-				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/79279b58-6f84-47a5-8a20-31a3cd7584cf"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6634,75 +5432,6 @@
 			(project "motor_42"
 				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/79279b58-6f84-47a5-8a20-31a3cd7584cf"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small_US")
-		(at 127 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc52e35f-2b3a-4956-817b-6fde4cd3effc")
-		(property "Reference" "C34"
-			(at 129.54 148.7169 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF/6.3V"
-			(at 127.254 152.146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 127 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "capacitor, small US symbol"
-			(at 127 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "544f5383-62d0-455b-a9c1-c7fa186b3da3")
-		)
-		(pin "1"
-			(uuid "2f2f03e5-eea8-4a28-b82a-e2387309cbfd")
-		)
-		(instances
-			(project "motor_42"
-				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/79279b58-6f84-47a5-8a20-31a3cd7584cf"
-					(reference "C34")
 					(unit 1)
 				)
 			)

@@ -2886,6 +2886,10 @@
 		(uuid "ce72111a-8873-403c-96ea-a965990dd08f")
 	)
 	(no_connect
+		(at 137.16 116.84)
+		(uuid "d0cfcdc8-eb71-49d8-bc9a-a04fbccdc544")
+	)
+	(no_connect
 		(at 172.72 91.44)
 		(uuid "f8800589-f5f4-417c-9eaa-8faff2ee7aa9")
 	)
@@ -2978,16 +2982,6 @@
 			(type default)
 		)
 		(uuid "0d377240-5fd7-4393-94af-3f1440c3b3e1")
-	)
-	(wire
-		(pts
-			(xy 133.35 116.84) (xy 137.16 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fe4eb47-311e-43ff-800f-46f2ad687df9")
 	)
 	(wire
 		(pts
@@ -4766,28 +4760,6 @@
 		(uuid "87d4cd5a-f190-48c5-96f3-166f846f1bc4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 78.023 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WS2812_SIGNAL"
-		(shape passive)
-		(at 133.35 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8844f18c-86f1-4fc4-bb24-7ea1078d14c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.4781 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)

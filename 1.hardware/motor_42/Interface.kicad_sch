@@ -757,338 +757,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_LED_AKL:LED_0603_Green"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED_0603_Green"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Green SMD LED, 0603, Alternate KiCad Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "green LED diode generic smd 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0603_Green_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 30 200 30 1)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.905) (xy 0.254 3.429)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-						(color 30 200 30 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 2.794) (xy -0.254 3.048) (xy 0.254 3.429) (xy 0.254 2.794)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 30 200 30 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.397) (xy 1.27 2.921)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-						(color 30 200 30 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.286) (xy 0.762 2.54) (xy 1.27 2.921) (xy 1.27 2.286)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-						(color 30 200 30 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_0603_Green_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -0.889 -0.889)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.889) (xy -2.159 2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 30 200 30 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 30 200 30 1)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.27) (xy -1.016 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 30 200 30 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 1.778 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.889 0.889) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_0603_Green_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LED_0603_Green_1_2"
-				(polyline
-					(pts
-						(xy -2.159 2.413) (xy -2.286 1.778) (xy -1.6764 1.9812) (xy -2.159 2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 30 200 30 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 2.794) (xy -1.143 2.159) (xy -0.5334 2.3622) (xy -1.016 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 30 200 30 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 0)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 0)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_LED_AKL:LED_0603_Red"
 			(pin_numbers
 				(hide yes)
@@ -2712,12 +2380,6 @@
 		(uuid "5510a5ee-7260-4ee6-8d67-e4dbeaf0ce2a")
 	)
 	(junction
-		(at 43.18 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "638c21b6-aa02-4273-aab4-6054c509f08b")
-	)
-	(junction
 		(at 33.02 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2806,20 +2468,20 @@
 		(uuid "35eae354-33fb-4090-a125-e7990e30c277")
 	)
 	(no_connect
-		(at 124.46 129.54)
-		(uuid "4032c0ce-02b9-4506-a99b-57922c7bb98c")
-	)
-	(no_connect
 		(at 124.46 114.3)
 		(uuid "539da55e-a4ec-43dc-a587-87583d128491")
 	)
 	(no_connect
-		(at 124.46 127)
-		(uuid "59733fd9-6153-41e8-b7df-a9cb4ea68fc9")
+		(at 124.46 121.92)
+		(uuid "5c8c24e1-bb1c-4b6b-949a-a1e2f224a422")
 	)
 	(no_connect
 		(at 124.46 116.84)
 		(uuid "9ca7f6a6-22c3-4d0e-8b15-d8dea49659e9")
+	)
+	(no_connect
+		(at 124.46 119.38)
+		(uuid "a3066788-6e43-4fc2-bc50-fcb36f59ffac")
 	)
 	(no_connect
 		(at 124.46 137.16)
@@ -2877,16 +2539,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 119.38) (xy 124.46 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13e767ea-771d-4215-b779-48fe3580254d")
-	)
-	(wire
-		(pts
 			(xy 101.6 92.71) (xy 106.68 92.71)
 		)
 		(stroke
@@ -2904,16 +2556,6 @@
 			(type default)
 		)
 		(uuid "233fe526-7a30-40f4-a9af-25658e3d76f9")
-	)
-	(wire
-		(pts
-			(xy 124.46 121.92) (xy 43.18 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24dad626-72d2-4bd7-bd7a-c01a15194ef4")
 	)
 	(wire
 		(pts
@@ -3057,6 +2699,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 115.57) (xy 57.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b6d7716-4190-4d32-bba5-66c02a4d7da8")
+	)
+	(wire
+		(pts
 			(xy 171.45 101.6) (xy 186.69 101.6)
 		)
 		(stroke
@@ -3187,16 +2839,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 92.71) (xy 30.48 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ea2c405-eddd-4cfe-9db1-32956403a445")
-	)
-	(wire
-		(pts
 			(xy 87.63 172.72) (xy 87.63 173.99)
 		)
 		(stroke
@@ -3214,6 +2856,16 @@
 			(type default)
 		)
 		(uuid "91c6c2b1-7485-4a53-9280-c9b7060e2ea3")
+	)
+	(wire
+		(pts
+			(xy 57.15 127) (xy 124.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95fbd233-bd63-4d5b-a5ab-f4f84251f6f9")
 	)
 	(wire
 		(pts
@@ -3264,16 +2916,6 @@
 			(type default)
 		)
 		(uuid "9dceb50a-6239-4e56-92af-7de188f2dcd5")
-	)
-	(wire
-		(pts
-			(xy 30.48 110.49) (xy 30.48 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a006e6f7-24fe-4020-abe1-f260b1743dfb")
 	)
 	(wire
 		(pts
@@ -3334,16 +2976,6 @@
 			(type default)
 		)
 		(uuid "ab8b9f82-027c-4d04-bb25-3ed6f94f1160")
-	)
-	(wire
-		(pts
-			(xy 57.15 115.57) (xy 57.15 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afb17e90-5bff-4858-92a9-ee11d241f8ee")
 	)
 	(wire
 		(pts
@@ -3427,16 +3059,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 100.33) (xy 30.48 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c224fce5-357c-4177-9342-85ab3263fae0")
-	)
-	(wire
-		(pts
 			(xy 85.09 148.59) (xy 87.63 148.59)
 		)
 		(stroke
@@ -3457,7 +3079,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 115.57) (xy 43.18 121.92)
+			(xy 43.18 115.57) (xy 43.18 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3484,6 +3106,16 @@
 			(type default)
 		)
 		(uuid "d2094a31-2ac0-4048-84c0-aa7aba0a77af")
+	)
+	(wire
+		(pts
+			(xy 43.18 129.54) (xy 124.46 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52ce6e3-d16d-42ac-b4ba-6915dc0c1381")
 	)
 	(wire
 		(pts
@@ -3554,16 +3186,6 @@
 			(type default)
 		)
 		(uuid "e69c44f5-aef6-4bfb-b78b-1e7936ff0aaa")
-	)
-	(wire
-		(pts
-			(xy 30.48 92.71) (xy 43.18 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e899947a-62ec-4c0c-9b1c-bf4523fc5925")
 	)
 	(wire
 		(pts
@@ -4210,75 +3832,6 @@
 			(project "motor_42"
 				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/9b49f0d1-725c-46a9-83d3-f1e791b8bf0d"
 					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_LED_AKL:LED_0603_Green")
-		(at 30.48 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21e11b53-3c13-4c98-b366-5cda37b6cc34")
-		(property "Reference" "LED3"
-			(at 30.734 104.394 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED_0603_Green_PWR"
-			(at 19.558 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
-			(at 30.48 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Green SMD LED, 0603, Alternate KiCad Library"
-			(at 30.48 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4ce64da1-11de-4fa9-8be4-f5ba90460bdb")
-		)
-		(pin "1"
-			(uuid "491c4369-ae45-47b1-817d-bfe02f1ee3e5")
-		)
-		(instances
-			(project "motor_42"
-				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/9b49f0d1-725c-46a9-83d3-f1e791b8bf0d"
-					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -5062,71 +4615,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 30.48 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c189d33-e680-417f-a016-5a0949c74882")
-		(property "Reference" "#PWR046"
-			(at 30.48 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.734 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9a24db4-100d-41e8-b099-a8a0aacf88ba")
-		)
-		(instances
-			(project "motor_42"
-				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/9b49f0d1-725c-46a9-83d3-f1e791b8bf0d"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 33.02 33.02 0)
 		(unit 1)
@@ -5342,73 +4830,6 @@
 			(project "motor_42"
 				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/9b49f0d1-725c-46a9-83d3-f1e791b8bf0d"
 					(reference "S3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 30.48 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "93a36da1-51a0-449d-9ee6-ba2db5f8249d")
-		(property "Reference" "R27"
-			(at 33.528 96.266 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7K/0.063w"
-			(at 37.592 99.822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 30.48 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 30.48 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ecb446c0-792c-419a-96ed-097cf1ac9ff3")
-		)
-		(pin "1"
-			(uuid "003370aa-c32d-4557-b657-f65e18cfff54")
-		)
-		(instances
-			(project "motor_42"
-				(path "/3c5de6a8-6840-43a5-a2fb-24dbb7f0450d/9b49f0d1-725c-46a9-83d3-f1e791b8bf0d"
-					(reference "R27")
 					(unit 1)
 				)
 			)
