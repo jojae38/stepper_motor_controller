@@ -4294,7 +4294,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/16V"
+		(property "Value" "0.1uF/50V"
 			(at 173.99 99.1869 0)
 			(effects
 				(font
@@ -5058,7 +5058,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/16V"
+		(property "Value" "0.1uF/50V"
 			(at 70.104 168.656 0)
 			(effects
 				(font
