@@ -50,11 +50,17 @@ void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, ADC_ENC_Pin|LED1_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(ADC_ENC_GPIO_Port, ADC_ENC_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOB, MT6816_CSN_Pin|IN_B_M_Pin|IN_B_P_Pin|IN_A_M_Pin
-                          |IN_A_P_Pin|LED2_Pin|BTN1_Pin|BTN2_Pin, GPIO_PIN_RESET);
+                          |IN_A_P_Pin|BTN1_Pin|BTN2_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_SET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, GPIO_PIN_SET);
 
   /*Configure GPIO pins : ADC_ENC_Pin LED1_Pin */
   GPIO_InitStruct.Pin = ADC_ENC_Pin|LED1_Pin;

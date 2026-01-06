@@ -57,12 +57,14 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define UART2_TX_ESP32_Pin GPIO_PIN_2
+#define UART2_TX_ESP32_GPIO_Port GPIOA
+#define UART2_RX_ESP32_Pin GPIO_PIN_3
+#define UART2_RX_ESP32_GPIO_Port GPIOA
 #define ADC_ENC_Pin GPIO_PIN_4
 #define ADC_ENC_GPIO_Port GPIOA
 #define MT6816_CSN_Pin GPIO_PIN_0
 #define MT6816_CSN_GPIO_Port GPIOB
-#define WS2812B_SIGNAL_Pin GPIO_PIN_10
-#define WS2812B_SIGNAL_GPIO_Port GPIOB
 #define IN_B_M_Pin GPIO_PIN_12
 #define IN_B_M_GPIO_Port GPIOB
 #define IN_B_P_Pin GPIO_PIN_13
@@ -75,6 +77,10 @@ void Error_Handler(void);
 #define VREF_PWM_A_GPIO_Port GPIOA
 #define VREF_PWM_B_Pin GPIO_PIN_9
 #define VREF_PWM_B_GPIO_Port GPIOA
+#define NC_USB_DM_Pin GPIO_PIN_11
+#define NC_USB_DM_GPIO_Port GPIOA
+#define NC_USB_DP_Pin GPIO_PIN_12
+#define NC_USB_DP_GPIO_Port GPIOA
 #define LED1_Pin GPIO_PIN_15
 #define LED1_GPIO_Port GPIOA
 #define LED2_Pin GPIO_PIN_3

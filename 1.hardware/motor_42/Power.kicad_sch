@@ -1623,6 +1623,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 151.13 102.87)
+		(end 173.99 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6d7c9542-b6c8-4410-b4fa-311fd020f04a)
+	)
 	(text "5V"
 		(exclude_from_sim no)
 		(at 29.21 79.248 0)
@@ -3995,7 +4007,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "13.3k/0.063w"
+		(property "Value" "22k/0.063w"
 			(at 158.75 111.7599 0)
 			(effects
 				(font
