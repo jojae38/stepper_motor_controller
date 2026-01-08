@@ -44,6 +44,7 @@
 "./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
 "./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o"
 "./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.o"
+"./Drivers/mt6816/mt6816.o"
 "./Service/cli.o"
 "./Service/esp32_cli.o"
-"./Service/step_motor_control.o"
+"./Service/motor_control.o"

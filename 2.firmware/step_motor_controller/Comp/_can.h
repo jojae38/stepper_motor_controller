@@ -8,6 +8,6 @@
 #ifndef CAN_H_
 #define CAN_H_
 
-
+#include "hw_def.h"
 
 #endif /* CAN_H_ */

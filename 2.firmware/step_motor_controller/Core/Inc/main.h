@@ -57,6 +57,10 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define ADC1_0_VREF_2V5_Pin GPIO_PIN_0
+#define ADC1_0_VREF_2V5_GPIO_Port GPIOA
+#define ADC1_1_TEMP_Pin GPIO_PIN_1
+#define ADC1_1_TEMP_GPIO_Port GPIOA
 #define UART2_TX_ESP32_Pin GPIO_PIN_2
 #define UART2_TX_ESP32_GPIO_Port GPIOA
 #define UART2_RX_ESP32_Pin GPIO_PIN_3

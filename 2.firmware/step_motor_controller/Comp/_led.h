@@ -15,7 +15,7 @@ typedef struct{
   uint16_t      pin;
   GPIO_PinState on_state;
   GPIO_PinState off_state;
-  bool current_state;
+  bool          state;
 }led_tbl_t;
 
 void ledInit(void);

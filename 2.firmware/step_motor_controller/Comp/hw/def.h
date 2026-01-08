@@ -17,5 +17,6 @@
 #include <stdlib.h>
 #include <math.h>
 
+#define __vo volatile
 
 #endif /* HW_DEF_H_ */

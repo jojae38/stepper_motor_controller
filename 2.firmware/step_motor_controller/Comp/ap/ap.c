@@ -9,7 +9,7 @@
 
 void apInit(void)
 {
-
+  motorInit();
 }
 
 
@@ -17,6 +17,6 @@ void apMain(void)
 {
 	while(true)
 	{
-
+	  motorMain();
 	}
 }
