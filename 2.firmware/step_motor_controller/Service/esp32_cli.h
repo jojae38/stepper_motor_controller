@@ -10,5 +10,7 @@
 
 #include "hw_def.h"
 
+void esp32CliInit(void);
+void esp32CliMain(void);
 
 #endif /* ESP32_CLI_H_ */

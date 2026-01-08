@@ -6,6 +6,7 @@
  */
 #include "mt6816.h"
 
+uint16_t MT6816_angle_data;
 float MT6816_angle;
 MT6816_tbl_t MT6816_tbl;
 
@@ -17,7 +18,7 @@ static inline void cs_off(MT6816_tbl_t *T) {
     HAL_GPIO_WritePin(T->ncs_port, T->ncs_pin, GPIO_PIN_SET);
 }
 
-MT6816_result_t w25qxx_transmit(MT6816_tbl_t* T, uint8_t *buf, uint32_t len) {
+MT6816_result_t MT6816_transmit(MT6816_tbl_t* T, uint8_t *buf, uint32_t len) {
   MT6816_result_t ret = MT6816_Err;
     if (HAL_SPI_Transmit(T->spi_handler, buf, len, HAL_MAX_DELAY) == HAL_OK) {
         ret = MT6816_Ok;
@@ -25,7 +26,7 @@ MT6816_result_t w25qxx_transmit(MT6816_tbl_t* T, uint8_t *buf, uint32_t len) {
     return ret;
 }
 
-MT6816_result_t w25qxx_receive(MT6816_tbl_t* T, uint8_t *buf, uint32_t len) {
+MT6816_result_t MT6816_receive(MT6816_tbl_t* T, uint8_t *buf, uint32_t len) {
   MT6816_result_t ret = MT6816_Err;
     if (HAL_SPI_Receive(T->spi_handler, buf, len, HAL_MAX_DELAY) == HAL_OK) {
         ret = MT6816_Ok;
@@ -43,6 +44,9 @@ void mt6816_Init(MT6816_tbl_t T)
 
 void mt6816_Main(void)
 {
+  MT6816_angle_data = 0;
+  uint8_t rx[2] = {0};
+
   //mt6816 확인
 }
 

@@ -8,3 +8,12 @@
 #include "_uart.h"
 #include "esp32_cli.h"
 
+void esp32CliInit(void)
+{
+
+}
+
+void esp32CliMain(void)
+{
+
+}
