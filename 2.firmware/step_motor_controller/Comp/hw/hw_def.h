@@ -32,8 +32,8 @@
 #define _DEF_BTN2  1
 
 // PWM
-#define _DEF_PWM1  0
-#define _DEF_PWM2  1
+#define _DEF_A_PWM1  0
+#define _DEF_B_PWM2  1
 
 // ADC
 #define _DEF_ADC1  0

@@ -13,8 +13,10 @@ void hwInit(void)
   ledInit();
   btnInit();
 
+  //통신
   uartInit();
   cliInit();
+  esp32CliInit();
 
   //센서
 }
@@ -56,4 +58,5 @@ void hwMain(void)
   }
   //상시 실행
   cliMain();
+  esp32CliMain();
 }

@@ -11,6 +11,7 @@
 #define MT6816_MT6816_H_
 
 #define _2PI                                6.28318530718f
+#define _RAD2DEG                            57.2958f
 #define MT6816_CPR                          16384.0f
 
 #define MT6816_READ_REG_03                  0x8300
@@ -23,6 +24,7 @@ typedef struct{
   SPI_HandleTypeDef* spi_handler;
   GPIO_TypeDef*      ncs_port;
   uint32_t           ncs_pin;
+  bool               no_magnet;
 }MT6816_tbl_t;
 
 typedef enum {
