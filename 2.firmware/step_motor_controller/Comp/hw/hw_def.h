@@ -39,4 +39,11 @@
 #define _DEF_ADC1  0
 #define _DEF_ADC2  1
 
+// CLI
+//#define _USE_SIMPLE_CLI
+#define HW_CLI_CMD_NAME_MAX    16
+#define HW_CLI_CMD_LIST_MAX    16
+#define HW_CLI_LINE_HIS_MAX    4
+#define HW_CLI_LINE_BUF_MAX    50
+
 #endif /* HW_HW_DEF_H_ */

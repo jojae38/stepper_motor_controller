@@ -10,7 +10,7 @@
 
 #define ESP_BUFFER_SIZE      (512)
 static uint8_t uartbuffer[ESP_BUFFER_SIZE];
-static uint8_t rx_data = 0;
+//static uint8_t rx_data = 0;
 
 void esp32CliInit(void)
 {

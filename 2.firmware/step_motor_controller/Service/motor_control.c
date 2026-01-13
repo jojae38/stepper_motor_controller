@@ -23,12 +23,14 @@ void motorMain(void)
 
 float getMotorAngle(void)
 {
-
+  float ret = 0;
+  return ret;
 }
 
 float getMotorDegree(void)
 {
-
+  float ret = 0;
+  return ret;
 }
 
 void  printMotorDegree(void)

@@ -18,6 +18,7 @@
 #include "_uart.h"
 
 #include "cli.h"
+//#include "simple_cli.h"
 #include "esp32_cli.h"
 #include "mt6816.h"
 

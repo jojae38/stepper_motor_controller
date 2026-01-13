@@ -19,4 +19,11 @@
 
 #define __vo volatile
 
+#define MAX(a,b)  ((a) > (b) ? (a) : (b))
+#define MIN(a,b)  ((a) < (b) ? (a) : (b))
+
+#define SECOND(sec)   ((sec) * 1000)
+#define MINUTE(min)   ((min) * SECOND(60))
+
+
 #endif /* HW_DEF_H_ */
