@@ -28,7 +28,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "ap.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -100,7 +100,8 @@ int main(void)
   MX_USB_PCD_Init();
   MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
-
+  apInit();
+  apMain();
   /* USER CODE END 2 */
 
   /* Infinite loop */

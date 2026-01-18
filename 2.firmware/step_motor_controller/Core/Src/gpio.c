@@ -54,7 +54,7 @@ void MX_GPIO_Init(void)
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOB, MT6816_CSN_Pin|IN_B_M_Pin|IN_B_P_Pin|IN_A_M_Pin
-                          |IN_A_P_Pin|BTN1_Pin|BTN2_Pin, GPIO_PIN_RESET);
+                          |IN_A_P_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_SET);
@@ -70,12 +70,18 @@ void MX_GPIO_Init(void)
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
   /*Configure GPIO pins : MT6816_CSN_Pin IN_B_M_Pin IN_B_P_Pin IN_A_M_Pin
-                           IN_A_P_Pin LED2_Pin BTN1_Pin BTN2_Pin */
+                           IN_A_P_Pin LED2_Pin */
   GPIO_InitStruct.Pin = MT6816_CSN_Pin|IN_B_M_Pin|IN_B_P_Pin|IN_A_M_Pin
-                          |IN_A_P_Pin|LED2_Pin|BTN1_Pin|BTN2_Pin;
+                          |IN_A_P_Pin|LED2_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : BTN1_Pin BTN2_Pin */
+  GPIO_InitStruct.Pin = BTN1_Pin|BTN2_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
 }
