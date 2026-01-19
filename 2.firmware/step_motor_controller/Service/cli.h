@@ -8,8 +8,8 @@
 #ifndef SERVICES_CLI_H_
 #define SERVICES_CLI_H_
 
-
 #include "hw_def.h"
+#include "mt6816.h"
 
 #ifndef _USE_SIMPLE_CLI
 
@@ -43,9 +43,12 @@ uint32_t cliAvailable(void);
 uint8_t  cliRead(void);
 uint32_t cliWrite(uint8_t *p_data, uint32_t length);
 
-
-void cliShowList(cli_args_t *args);
-
+//추가된 명령어
+void cliEmpty(cli_args_t *args);        //빈 CLI 명령어
+void cliShowList(cli_args_t *args);     //help
+void cliPwmChange(cli_args_t *args);    //pwm 변경
+void cliMt6816Value(cli_args_t *args);  //MT6816 각도
+void cliRotateMotor(cli_args_t *args);  //모터 회전
 
 #endif
 

@@ -33,7 +33,9 @@ typedef enum {
     MT6816_Timeout // 2
 } MT6816_result_t;
 
-void mt6816_Init(MT6816_tbl_t T);
+void mt6816_Init(void);
 void mt6816_Main(void);
+float getMt6816_Angle(void);
+uint16_t getMt6816_Degree(void);
 
 #endif /* MT6816_MT6816_H_ */

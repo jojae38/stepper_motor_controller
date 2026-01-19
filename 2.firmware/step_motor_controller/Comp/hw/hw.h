@@ -21,6 +21,7 @@
 //#include "simple_cli.h"
 #include "esp32_cli.h"
 #include "mt6816.h"
+#include "oneshot_timer.h"
 
 void hwInit(void);
 void hwMain(void);

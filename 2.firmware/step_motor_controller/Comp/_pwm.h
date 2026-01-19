@@ -14,12 +14,13 @@ typedef struct{
   TIM_HandleTypeDef* tim_handler;
   uint16_t           tim_channel;
   uint32_t           freq;
+  uint32_t           counter_period;
   float              duty;
   bool               state;
 }pwm_tbl_t;
 
 void pwmInit(void);
 void pwmMain(void);
-void pwmChange(uint8_t ch, uint8_t value);
+void pwmChangeDuty(uint8_t ch, float duty);
 
 #endif /* PWM_H_ */

@@ -19,6 +19,9 @@ typedef struct{
   uint32_t      duration;
 }btn_tbl_t;
 
+//100ms 타이머에 넣을 시
+#define BTN_DURATION_STEP   100
+
 void btnInit(void);
 void btnMain(void);
 bool getBtnState(uint8_t ch);

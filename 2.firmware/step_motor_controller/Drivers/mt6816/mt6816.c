@@ -5,10 +5,18 @@
  *      Author: jojae
  */
 #include "mt6816.h"
+#include "hw_def.h"
 
+extern SPI_HandleTypeDef hspi1;
+
+MT6816_tbl_t MT6816_tbl ={
+    .spi_handler = &hspi1,
+    .ncs_port = MT6816_CSN_GPIO_Port,
+    .ncs_pin = MT6816_CSN_Pin,
+    .no_magnet = false,
+};
 uint16_t MT6816_angle_data;
 float MT6816_angle;
-MT6816_tbl_t MT6816_tbl;
 
 bool MT6816_parityCheck(uint16_t data);
 
@@ -36,12 +44,12 @@ MT6816_result_t MT6816_receive(MT6816_tbl_t* T, uint8_t *buf, uint32_t len) {
     return ret;
 }
 
-void mt6816_Init(MT6816_tbl_t T)
+void mt6816_Init(void)
 {
-  MT6816_tbl.spi_handler = T.spi_handler;
-  MT6816_tbl.ncs_port = T.ncs_port;
-  MT6816_tbl.ncs_pin = T.ncs_pin;
-  MT6816_tbl.no_magnet = false;
+//  MT6816_tbl.spi_handler = T.spi_handler;
+//  MT6816_tbl.ncs_port = T.ncs_port;
+//  MT6816_tbl.ncs_pin = T.ncs_pin;
+//  MT6816_tbl.no_magnet = false;
   MT6816_angle_data = 0;
   MT6816_angle = 0;
 }
@@ -104,4 +112,9 @@ bool MT6816_parityCheck(uint16_t data) {
 float getMt6816_Angle(void)
 {
   return MT6816_angle;
+}
+
+uint16_t getMt6816_Degree(void)
+{
+  return (MT6816_angle * _RAD2DEG);
 }

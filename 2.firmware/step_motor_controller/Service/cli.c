@@ -120,10 +120,12 @@ bool cliInit(void)
   cliLineClean(&cli_node);
 
   cliAdd("help", cliShowList);
-//  cliAdd("BLE", cliBleSend);
-//  cliAdd("BLEOUT", cliBleOut);
+  cliAdd("pwm_change", cliPwmChange);
 
-  cliOpen(_DEF_UART1_DBG, 230400);
+  cliAdd("pwm_change", cliPwmChange);
+  cliAdd("pwm_change", cliEmpty);
+
+  cliOpen(_DEF_UART1_DBG, 115200);
   delay(100);
   return true;
 }
@@ -199,15 +201,7 @@ bool cliMain(void)
   }
 
   uint8_t len = uartAvailable(_DEF_UART1_DBG);
-//  if(len > 0)
-//  {
-//    char tmp_buffer[256];
-//    for(int i = 0; i<len ; i++)
-//    {
-//      tmp_buffer[i] = uartRead(_DEF_UART2_BLE);
-//    }
-//    cliPrintf("%s",tmp_buffer);
-//  }
+
   char tmp_buffer[256];
   if (len > 0 && len < sizeof(tmp_buffer)) {
       for (int i = 0; i < len; i++) {
@@ -259,7 +253,6 @@ bool cliUpdate(cli_t *p_cli, uint8_t rx_data)
     switch(rx_data)
     {
       // 엔터
-      //
       case CLI_KEY_ENTER:
         if (line->count > 0)
         {
@@ -280,7 +273,6 @@ bool cliUpdate(cli_t *p_cli, uint8_t rx_data)
 
 
       // DEL
-      //
       case CLI_KEY_DEL:
         if (line->cursor < line->count)
         {
@@ -724,10 +716,21 @@ bool cliAdd(const char *cmd_str, void (*p_func)(cli_args_t *))
   return ret;
 }
 
+void cliEmpty(cli_args_t *args)
+{
+  int    argc  = args->argc;
+  char **argv  = args->argv;
+  cliPrintf("-----------------------------\r\n");
+  for(int i = 0; i < argc; i++)
+  {
+    cliPrintf("INPUT %d = %s\r\n",i,argv[i]);
+  }
+  cliPrintf("-----------------------------\r\n");
+}
+
 void cliShowList(cli_args_t *args)
 {
   cli_t *p_cli = &cli_node;
-
 
   cliPrintf("\r\n");
   cliPrintf("---------- cmd list ---------\r\n");
@@ -739,6 +742,70 @@ void cliShowList(cli_args_t *args)
   }
 
   cliPrintf("-----------------------------\r\n");
+}
+
+void cliPwmChange(cli_args_t *args)
+{
+  int    argc  = args->argc;
+  char **argv  = args->argv;
+
+  if(argc == 2)
+  {
+    int ch = atoi(argv[0]);
+    float duty = atof(argv[1]);
+
+    if(ch == 0|| duty == 0) goto error;
+    if(duty > 1 || duty < 0) goto error;
+
+    cliPrintf("PWM CHANGE Channel %s to Duty %s\r\n", argv[0], argv[1]);
+  }
+  else goto error;
+
+  error:
+  cliPrintf("Something Wrong With Arguments\r\n");
+  cliPrintf("2 Argument Needed\r\n");
+}
+
+void cliMt6816Value(cli_args_t *args)
+{
+  cliPrintf("Mag Degree %d",getMt6816_Degree());
+}
+
+//방향 오른쪽 1 왼쪽 2
+//각도 30 60 90
+//속도 1~10
+void cliRotateMotor(cli_args_t *args)
+{
+  int    argc  = args->argc;
+  char **argv  = args->argv;
+
+  if(argc == 3)
+  {
+    int dir =     atoi(argv[0]);
+    int degree =  atoi(argv[1]);
+    int speed =   atoi(argv[2]);
+
+    if(dir == 0|| degree == 0||speed == 0) goto error;
+    if(degree < 0) degree = abs(degree);
+    if(speed < 0 || speed > 10) goto error;
+
+    if(dir == 1)
+    {
+      //TODO 회전 함수 넣기
+      cliPrintf("Right Dir %s Deg %s Spd", argv[1], argv[2]);
+    }
+    else
+    {
+      //TODO 회전 함수 넣기
+      cliPrintf("Left Dir %s Deg %s Spd", argv[1], argv[2]);
+    }
+
+  }
+  else goto error;
+
+  error:
+  cliPrintf("Something Wrong With Arguments\r\n");
+  cliPrintf("2 Argument Needed\r\n");
 }
 
 //void cliMemoryDump(cli_args_t *args)

@@ -26,7 +26,7 @@ void btnMain(void)
     if(btn_tbl[i].on_state == tmp_state)
     {
       btn_tbl[i].state = true;
-      btn_tbl[i].duration += 100;
+      btn_tbl[i].duration += BTN_DURATION_STEP;
     }
     else
     {

@@ -11,6 +11,7 @@
 "./Comp/hw/hw.o"
 "./Core/Src/adc.o"
 "./Core/Src/can.o"
+"./Core/Src/dma.o"
 "./Core/Src/gpio.o"
 "./Core/Src/main.o"
 "./Core/Src/spi.o"
@@ -48,4 +49,5 @@
 "./Service/cli.o"
 "./Service/esp32_cli.o"
 "./Service/motor_control.o"
+"./Service/oneshot_timer.o"
 "./Service/simple_cli.o"

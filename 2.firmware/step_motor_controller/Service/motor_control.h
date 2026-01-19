@@ -10,6 +10,11 @@
 
 #include "hw_def.h"
 
+typedef struct{
+
+
+}step_motor_tbl_t;
+
 void motorInit(void);
 void motorMain(void);
 float getMotorAngle(void);

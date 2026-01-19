@@ -17,8 +17,13 @@ void hwInit(void)
   uartInit();
   cliInit();
   esp32CliInit();
+  mt6816_Init();
 
   //센서
+  adcInit();
+
+  //서비스 함수
+  oneShotInit();
 }
 
 static __vo uint32_t timer_100ms = 0;
@@ -35,13 +40,12 @@ void hwMain(void)
   {
     //0.1초마다 실행
     last_100ms_tick = timer_100ms;
+    btnMain();
 
     //0.5초마다 실행
     if(timer_100ms - last_500ms >= 5)
     {
       last_500ms = timer_100ms;
-      btnMain();
-
     }
 
     //1초마다 실행
@@ -54,9 +58,12 @@ void hwMain(void)
     if(timer_100ms - last_5s >= 50)
     {
       last_5s = timer_100ms;
+      adcMain();
     }
   }
   //상시 실행
+  mt6816_Main();
   cliMain();
   esp32CliMain();
+  oneShotMain();
 }
